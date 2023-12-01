@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@800&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+.main{
+    background-image: url(assets/images/back.avif);
+    background-position: center center;
+    background-size: max(1200px, 100vw);
+    background-repeat: no-repeat;
+    height: 70vh; 
+    position: relative;
+}
+
+.main .blackBox{
+    height: 70vh;
+    width: 100%;
+    top: 0;
+    opacity: 0.55;
+    position: absolute;
+    background-color: black;
+}
+
+body{
+    background-color: rgb(102, 139, 92);
+}
+
+nav{
+    max-width: 60vw;
+    margin: auto;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+
+nav img{
+    width: 10px;
+    position: relative;
+    z-index: 10;
+}
+nav button{
+    position: relative;
+    z-index: 10;
+}
+
+.slogan{
+    font-family: 'Martel Sans', sans-serif;
+    position: relative;
+    height: calc(100% - 20px);
+    display: flex;
+    gap: 23px;
+    padding: 0 20px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    text-align: center;
+}
+
+.slogan> :nth-child(1){
+    font-weight: 900;
+    font-size: 36px;
+    text-align: center;
+}
+.slogan> :nth-child(2){
+    font-weight: lighter;
+    font-size: 22px;
+    text-align: center;
+}
+
+.separation{
+    background-color: green;
+    opacity: 0.5;
+    height: 9px;
+}
